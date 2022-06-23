@@ -1,0 +1,13 @@
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+:root {
+    --light-grey: #e0e0e0;
+    --dark-grey: #606060;
+    --red-bg: #da1e5d;
+}
+
+card1{
+    background-color: #da1e5d;
+}
