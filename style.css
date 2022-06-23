@@ -1,5 +1,39 @@
 body {
     font-family: 'Raleway', sans-serif;
+    border: 2px solid;
+  
+}
+#nav{
+    padding-left: 175gitpx;
+    margin-top: 10px;
+}
+.button{
+   background-color:  #e0e0e0;
+
+}
+
+
+
+.card{
+    background-color: #da1e5d;
+    width: 1500px;
+    height: 150px;
+    left: -654px;
+    top: 173px;
+    border-radius: 14px;
+  
+   
+}
+#container{
+    padding-left: 170px;
+}
+
+
+h2{
+ color: white;
+ text-align: center;
+ padding-top: 61px;
+
 }
 
 :root {
@@ -8,6 +42,5 @@ body {
     --red-bg: #da1e5d;
 }
 
-card1{
-    background-color: #da1e5d;
-}
+
+
