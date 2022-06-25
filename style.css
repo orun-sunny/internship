@@ -1,14 +1,27 @@
-body {
+/* *, *:before, *:after {
+    box-sizing: border-box;
+  }
+    */
+ 
+ body {
     font-family: 'Raleway', sans-serif;
     border: 2px solid;
   
 }
 #nav{
-    padding-left: 175gitpx;
+    padding-left: 175px;
     margin-top: 10px;
 }
-.button{
-   background-color:  #e0e0e0;
+button{
+   
+    width: 157.27px;
+    height: 64px;
+   
+  
+    
+    background: #606060;
+    border-radius: 14px;
+  
 
 }
 
@@ -18,7 +31,7 @@ body {
     background-color: #da1e5d;
     width: 1500px;
     height: 150px;
-    left: -654px;
+   
     top: 173px;
     border-radius: 14px;
   
@@ -35,6 +48,37 @@ h2{
  padding-top: 61px;
 
 }
+
+/* layout2 */
+
+ #grid-container{
+    display: grid;
+    padding-top: 20px;
+    border-radius: 14px;
+    
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    grid-row-gap: 20px;
+    
+   
+
+   
+
+} 
+ #grid-container > div {
+    width: 500px;
+    height: 300px;
+    border-radius: 14px;
+    background-color: #da1e5d;
+   
+
+  
+  } 
+
+
+
+
+
 
 :root {
     --light-grey: #e0e0e0;
